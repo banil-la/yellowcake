@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yelloecake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'TPhone Components Map',
+    siteUrl: 'https://tphone-components-map.ptrn.xyz/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'tphone-components-map',
+        short_name: 'tphone-components-map',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
